@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Inter:wght@400;700&family=Ubuntu:wght@400;500&display=swap");
+
+:root {
+  --cor-principal: #525fe1;
+  --cor-contraste: #3644df;
+  --cor-padrao: black;
+  --cor-secundaria: #f86f03;
+  --cor-neutra: #ffffff;
+  --fonte-principal: "Ubuntu", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--cor-principal);
+  text-decoration: none;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo__card {
+  font-family: var(--fonte-principal);
+  margin: 0.5rem 0;
+}
+
+.subtitulo__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.card__principal {
+  border-radius: 15px;
+  background-color: var(--cor-neutra);
+  height: 80%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card {
+  font-family: var(--fonte-principal);
+  font-size: 0.8rem;
+  border: 1px solid var(--cor-contraste);
+  border-radius: 10px;
+  height: 4rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.img__exercicio {
+  width: 30%;
+  height: 80%;
+}
