@@ -2,6 +2,8 @@
 
 :root {
   --cor-principal: #525fe1;
+  --cor-contraste: #3644df;
+  --cor-padrao: black;
   --cor-secundaria: #f86f03;
   --cor-neutra: #ffffff;
   --fonte-principal: "Ubuntu", sans-serif;
@@ -38,7 +40,7 @@ a {
 }
 
 .nav {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .link__treinos {
@@ -48,12 +50,41 @@ a {
 .icon {
   font-family: var(--fonte-principal);
   font-weight: bold;
-  height: 3.1rem;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.2rem;
+}
+
+.text {
+  background-color: var(--cor-contraste);
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  border-radius: 12px;
+  border: solid 2px var(--cor-secundaria);
+  padding: 10px;
+  width: 4.8rem;
+}
+
+.desc__icon {
+  color: var(--cor-padrao);
 }
 
 .text__icon {
   color: var(--cor-neutra);
+}
+
+.icon__img {
+  background-color: var(--cor-secundaria);
+  border-radius: 40%;
+  height: 3.2rem;
+  width: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc__icon {
+  font-size: 0.6rem;
 }
