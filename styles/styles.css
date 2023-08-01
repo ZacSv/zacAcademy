@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Inter:wght@400;700&family=Ubuntu:wght@400;500&display=swap");
+
+:root {
+  --cor-principal: #525fe1;
+  --cor-secundaria: #f86f03;
+  --cor-neutra: #ffffff;
+  --fonte-principal: "Ubuntu", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--cor-principal);
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  font-family: var(--fonte-principal);
+}
+
+.principal__text {
+  font-size: 1.8rem;
+  color: var(--cor-secundaria);
+  font-weight: bold;
+}
+
+nav {
+  height: 50%;
+  display: flex;
+
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+
+.nav {
+  margin-left: 1rem;
+}
+
+.link__treinos {
+  gap: 1rem;
+}
+
+.icon {
+  font-family: var(--fonte-principal);
+  font-weight: bold;
+  height: 3.1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text__icon {
+  color: var(--cor-neutra);
+}
