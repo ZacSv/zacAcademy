@@ -27,6 +27,13 @@ main {
   font-size: 1.8rem;
   color: var(--cor-secundaria);
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 10px gray;
+  padding: 1rem;
+  height: 4rem;
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 12px;
 }
 
 nav {
