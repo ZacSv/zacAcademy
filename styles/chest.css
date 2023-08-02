@@ -49,20 +49,33 @@ strong {
   gap: 0.5rem;
 }
 
-.card {
+.card__escondido {
+  position: absolute;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: none;
+  transform: translateX(-50%);
+}
+button {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+/* .card {
   font-family: var(--fonte-principal);
   font-size: 0.8rem;
   border: 1px solid var(--cor-contraste);
   border-radius: 10px;
-  height: 4rem;
-  width: 80%;
+  height: 2rem;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2px;
-}
+} */
 
-.img__exercicio {
+/* .img__exercicio {
   width: 30%;
   height: 80%;
-}
+} */
