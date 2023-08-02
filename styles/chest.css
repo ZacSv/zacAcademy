@@ -7,6 +7,7 @@
   --cor-secundaria: #f86f03;
   --cor-neutra: #ffffff;
   --fonte-principal: "Ubuntu", sans-serif;
+  --degrade-fundo: ;
 }
 
 body {
@@ -50,32 +51,43 @@ strong {
 }
 
 .card__escondido {
+  border-radius: 12px;
+  border: 2px solid var(--cor-principal);
   position: absolute;
-  background-color: blue;
-  width: 100px;
-  height: 100px;
+  width: 40vh;
+  height: 70vh;
   display: none;
   transform: translateX(-50%);
+  backdrop-filter: blur(10px);
 }
-button {
+
+.card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--fonte-principal);
+  gap: 1rem;
+}
+
+.titulo__dicas {
+  font-size: 1.2rem;
+  color: var(--cor-secundaria);
+}
+
+.botao__abrir {
+  cursor: pointer;
   position: absolute;
   transform: translateX(-50%);
 }
 
-/* .card {
-  font-family: var(--fonte-principal);
-  font-size: 0.8rem;
-  border: 1px solid var(--cor-contraste);
-  border-radius: 10px;
-  height: 2rem;
-  width: 30%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2px;
-} */
+.botao__fechar {
+  cursor: pointer;
+}
 
-/* .img__exercicio {
-  width: 30%;
-  height: 80%;
-} */
+.img__exercicio {
+  width: 80%;
+  height: 40%;
+
+  backdrop-filter: blur(1px);
+}
