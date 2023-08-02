@@ -42,7 +42,7 @@ strong {
 .card__principal {
   border-radius: 15px;
   background-color: var(--cor-neutra);
-  height: 80%;
+  height: 90%;
   width: 90%;
   display: flex;
   align-items: center;
@@ -54,11 +54,17 @@ strong {
   border-radius: 12px;
   border: 2px solid var(--cor-principal);
   position: absolute;
-  width: 40vh;
-  height: 70vh;
+  width: 45vh;
+  height: 80vh;
   display: none;
   transform: translateX(-50%);
-  backdrop-filter: blur(10px);
+  background-color: var(--cor-neutra);
+}
+.img__exercicio {
+  width: 80%;
+  height: 40%;
+
+  backdrop-filter: blur(1px);
 }
 
 .card__content {
@@ -70,24 +76,48 @@ strong {
   gap: 1rem;
 }
 
+.titulo__exercicio {
+  font-size: 1.7rem;
+}
+
+.qtd__repeticoes {
+  color: var(--cor-contraste);
+}
+
+.grupo__muscular {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  width: 60%;
+  gap: 0.8rem;
+}
+
+.grupo__muscular .qtd__repeticoes {
+  color: var(--cor-padrao);
+}
+
 .titulo__dicas {
   font-size: 1.2rem;
   color: var(--cor-secundaria);
 }
 
+.dicas {
+  font-size: 0.9rem;
+}
+
 .botao__abrir {
+  font-size: 1rem;
+  font-family: var(--fonte-principal);
+  font-weight: bold;
+  width: 50vh;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
   cursor: pointer;
-  position: absolute;
-  transform: translateX(-50%);
 }
 
 .botao__fechar {
   cursor: pointer;
-}
-
-.img__exercicio {
-  width: 80%;
-  height: 40%;
-
-  backdrop-filter: blur(1px);
 }

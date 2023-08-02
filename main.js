@@ -10,5 +10,5 @@ botao.addEventListener("click", () => {
 
 botaoFechar.addEventListener("click", () => {
   card.style.display = "none";
-  botao.style.display = "block";
+  botao.style.display = "flex";
 });
