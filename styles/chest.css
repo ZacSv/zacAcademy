@@ -57,7 +57,7 @@ strong {
   width: 45vh;
   height: 80vh;
   display: none;
-  transform: translateX(-50%);
+  transform: translateX(-93%);
   background-color: var(--cor-neutra);
 }
 .img__exercicio {
@@ -109,9 +109,9 @@ strong {
   font-size: 1rem;
   font-family: var(--fonte-principal);
   font-weight: bold;
-  width: 50vh;
+  width: 40vh;
   border-radius: 12px;
-  display: flex;
+  display: absolute;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
