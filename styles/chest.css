@@ -11,7 +11,7 @@
 }
 
 body {
-  height: 100vh;
+  box-sizing: border-box;
   background-color: var(--cor-principal);
   text-decoration: none;
 }
@@ -23,9 +23,30 @@ main {
   align-items: center;
 }
 
+.botao__voltar {
+  width: 100%;
+  margin-left: 8%;
+  margin-top: 1%;
+  background-color: transparent;
+  border: none;
+}
+
+.modal-container {
+  position: fixed;
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  margin-top: 20%;
+  align-items: center;
+  flex-direction: column;
+}
+
 .titulo__card {
   font-family: var(--fonte-principal);
-  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--cor-secundaria);
+  padding: 1px;
 }
 
 .subtitulo__card {
@@ -42,12 +63,11 @@ strong {
 .card__principal {
   border-radius: 15px;
   background-color: var(--cor-neutra);
-  height: 90%;
+  height: 100%;
   width: 90%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 0.5rem;
 }
 
 .card__escondido {
@@ -60,10 +80,36 @@ strong {
   transform: translateX(-93%);
   background-color: var(--cor-neutra);
 }
-.img__exercicio {
+
+#card__supino {
+  bottom: 9%;
+  transform: translateX(-93%);
+}
+
+#card__supinoInclinado {
+  bottom: 9%;
+  transform: translateX(-93%);
+}
+
+#card__inclinadoHalteres {
+  bottom: 9%;
+  transform: translateX(-93%);
+}
+#card__roscaScott {
+  bottom: 9%;
+  transform: translateX(-93%);
+}
+#card__roscaMartelo {
+  bottom: 9%;
+  transform: translateX(-93%);
+}
+#card__roscaAlternada {
+  bottom: 9%;
+  transform: translateX(-93%);
+}
+*/ .img__exercicio {
   width: 80%;
   height: 40%;
-
   backdrop-filter: blur(1px);
 }
 
@@ -77,7 +123,7 @@ strong {
 }
 
 .titulo__exercicio {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 
 .qtd__repeticoes {
@@ -111,7 +157,6 @@ strong {
   font-weight: bold;
   width: 40vh;
   border-radius: 12px;
-  display: absolute;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
