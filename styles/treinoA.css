@@ -13,9 +13,7 @@
 body {
   box-sizing: border-box;
   background-color: var(--cor-principal);
-}
-
-main {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,13 +21,12 @@ main {
 
 .card {
   display: flex;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   flex-direction: column;
   background-color: var(--cor-neutra);
-  width: 100vw;
+  width: 92vw;
   height: 90vh;
-  margin: 8% 10%;
   border-radius: 20px;
 }
 
@@ -86,9 +83,8 @@ main {
 .voltar {
   border: none;
   background-color: transparent;
-  position: relative;
-  top: -4%;
-  left: -40%;
+  width: 95%;
+  margin-top: 5%;
 }
 
 .botao-fechar {
@@ -101,6 +97,16 @@ main {
   font-size: 2rem;
   font-weight: bold;
   padding: 0.5rem;
+  cursor: pointer;
+}
+
+.informacoes-card {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .img-exercicio {
@@ -112,21 +118,26 @@ main {
   font-family: var(--fonte-principal);
   font-weight: bold;
   color: var(--cor-secundaria);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .qtd-repeticoes {
   font-family: var(--fonte-principal);
   font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .grupo-muscular {
   color: var(--cor-contraste);
   margin-top: 1rem;
   font-weight: bold;
+  font-size: 1.2rem;
   gap: 15px;
   font-family: var(--fonte-principal);
   display: flex;
   align-items: center;
+}
+.dicas-exercicios {
+  font-size: 1.2rem;
 }
 
 #modal-supino {

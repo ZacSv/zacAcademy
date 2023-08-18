@@ -1,0 +1,44 @@
+@media (min-width: 1000px) {
+  .card-inicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px solid var(--cor-neutra);
+    height: 80%;
+  }
+
+  .card {
+    width: 80vw;
+    height: 90vh;
+  }
+
+  .card-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-neutra);
+    width: 85%;
+    height: 90%;
+    border-radius: 15px;
+    gap: 10px;
+    position: relative;
+  }
+  .icone-fechar {
+    position: absolute;
+    transform: translateY(-58%);
+    height: 90%;
+  }
+  .img-exercicio {
+    height: 100%;
+  }
+
+  .conteudo-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5%;
+    width: 80vw;
+  }
+}
