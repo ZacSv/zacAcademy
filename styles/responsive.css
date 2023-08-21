@@ -1,3 +1,58 @@
+:root {
+  --cor-principal: #525fe1;
+  --cor-contraste: #3644df;
+  --cor-padrao: black;
+  --cor-secundaria: #f86f03;
+  --cor-neutra: #ffffff;
+  --fonte-principal: "Ubuntu", sans-serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .card-inicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 5px solid var(--cor-neutra);
+    height: 50%;
+  }
+
+  .botoes-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+  }
+
+  .botao-abrir {
+    padding: 30px;
+  }
+  .informacoes-card {
+    height: 30%;
+    gap: 5%;
+  }
+
+  .img-exercicio {
+    height: 60%;
+  }
+
+  .titulo-exercicio {
+    font-size: 2rem;
+  }
+
+  .qtd-repeticoes {
+    font-size: 1.5rem;
+  }
+
+  .grupo-muscular {
+    font-size: 1.5rem;
+  }
+  .dicas-exercicios {
+    font-size: 1.3rem;
+    width: 85%;
+  }
+}
+
 @media (min-width: 1000px) {
   .card-inicial {
     display: flex;
@@ -26,8 +81,9 @@
     position: relative;
   }
   .icone-fechar {
+    width: 5%;
     position: absolute;
-    transform: translateY(-58%);
+    transform: translateY(-60%);
     height: 90%;
   }
   .img-exercicio {
@@ -38,7 +94,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 5%;
+    gap: 15%;
     width: 80vw;
+  }
+
+  .informacoes-card {
+    gap: 5%;
+  }
+
+  .titulo-exercicio {
+    font-size: 3rem;
+  }
+
+  .qtd-repeticoes {
+    font-size: 2rem;
+  }
+
+  .grupo-muscular {
+    font-size: 1.7rem;
+  }
+
+  .dicas-exercicios {
+    font-size: 1.3rem;
+    font-family: var(--fonte-principal);
   }
 }

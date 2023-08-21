@@ -138,6 +138,7 @@ body {
 }
 .dicas-exercicios {
   font-size: 1.2rem;
+  font-family: var(--fonte-principal);
 }
 
 #modal-supino {
