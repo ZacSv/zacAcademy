@@ -81,10 +81,11 @@
     position: relative;
   }
   .icone-fechar {
+    display: flex;
     width: 5%;
     position: absolute;
     transform: translateY(-60%);
-    height: 90%;
+    height: 30%;
   }
   .img-exercicio {
     height: 100%;

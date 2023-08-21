@@ -12,8 +12,6 @@ function fecharModal(targetId) {
 document.addEventListener("click", (event) => {
   const botao = event.target;
   const botaoFechar = event.target;
-  console.log(botao);
-  console.log(botaoFechar);
 
   if (botaoFechar.classList.contains("icone-fechar")) {
     const targetFechamento = botao.getAttribute("data-target");
