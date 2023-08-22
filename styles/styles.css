@@ -7,11 +7,14 @@
   --cor-secundaria: #f86f03;
   --cor-neutra: #ffffff;
   --fonte-principal: "Ubuntu", sans-serif;
+  --degrade-padrao: linear-gradient(90deg, #00c3f3, #006dec, #0044bf);
 }
 
 body {
   height: 100vh;
-  background-color: var(--cor-principal);
+  background-image: url("../assets/pattern-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -19,9 +22,17 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   height: 50%;
   font-family: var(--fonte-principal);
   padding: 30px;
+  gap: 6%;
+  align-items: center;
+}
+
+.img-principal {
+  max-width: 50%;
 }
 
 .principal__text {
@@ -65,7 +76,6 @@ a {
 }
 
 .text {
-  background-color: var(--cor-contraste);
   display: flex;
   flex-direction: column;
   text-align: center;

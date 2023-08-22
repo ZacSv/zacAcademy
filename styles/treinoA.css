@@ -7,16 +7,24 @@
   --cor-secundaria: #f86f03;
   --cor-neutra: #ffffff;
   --fonte-principal: "Ubuntu", sans-serif;
-  --degrade-fundo: ;
+  --degrade-padrao: linear-gradient(to 90deg, #00c3f3, #006dec, #0044bf);
 }
 
 body {
   box-sizing: border-box;
-  background-color: var(--cor-principal);
+  background-image: url("../assets/pattern-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.img-titulo {
+  display: absolute;
+  max-width: 50px;
+  max-height: 100px;
 }
 
 .card {
