@@ -88,6 +88,7 @@ body {
   border-radius: 15px;
   gap: 10px;
   position: relative;
+  transition: opacity 1s ease-in-out;
 }
 
 .voltar {

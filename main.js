@@ -1,7 +1,8 @@
-function abrirFecharElemento(targetId) {
+function abrirFecharElemento(targetId, delay) {
   const elemento = document.getElementById(targetId);
-  elemento.style.display = "flex";
-  // elemento.style.display = elemento.style.display === "none" ? "flex" : "none";
+  setTimeout(() => {
+    elemento.style.display = "flex";
+  }, delay);
 }
 
 function fecharModal(targetId) {
@@ -19,6 +20,6 @@ document.addEventListener("click", (event) => {
   }
   if (botao.classList.contains("botao-abrir")) {
     const targetId = botao.getAttribute("data-target");
-    abrirFecharElemento(`modal-${targetId}`);
+    abrirFecharElemento(`modal-${targetId}`, 100);
   }
 });
