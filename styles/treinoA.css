@@ -3,6 +3,7 @@
 :root {
   --cor-principal: #525fe1;
   --cor-contraste: #3644df;
+  --cor-apoio: #006dec;
   --cor-padrao: black;
   --cor-secundaria: #f86f03;
   --cor-neutra: #ffffff;
@@ -32,7 +33,7 @@ body {
   justify-content: top;
   align-items: center;
   flex-direction: column;
-  background-color: var(--cor-neutra);
+  background-color: var(--cor-apoio);
   width: 92vw;
   height: 90vh;
   border-radius: 20px;

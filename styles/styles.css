@@ -27,11 +27,12 @@ main {
   height: 50%;
   font-family: var(--fonte-principal);
   padding: 30px;
-  gap: 6%;
   align-items: center;
+  gap: 1rem;
 }
 
 .img-principal {
+  margin-top: 5%;
   max-width: 50%;
 }
 
@@ -58,8 +59,6 @@ a {
 }
 
 .nav {
-  display: flex;
-  align-items: center;
   padding: 30px;
 }
 
