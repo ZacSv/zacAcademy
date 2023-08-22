@@ -14,7 +14,6 @@
     align-items: center;
     border-radius: 15px;
     border: 5px solid var(--cor-neutra);
-    height: 50%;
   }
 
   .botoes-card {
@@ -59,6 +58,7 @@
     height: 100%;
     display: flex;
     align-items: start;
+    margin-bottom: 1rem;
   }
   .card-inicial {
     display: flex;
@@ -66,7 +66,7 @@
     align-items: center;
     border-radius: 15px;
     border: 5px solid var(--cor-neutra);
-    height: 80%;
+    height: auto;
   }
 
   .card {
