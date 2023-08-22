@@ -1,4 +1,4 @@
-function abrirFecharElemento(targetId, delay) {
+function abrirFecharElemento(targetId) {
   const elemento = document.getElementById(targetId);
   elemento.style.display = "flex";
 }
