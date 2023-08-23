@@ -26,7 +26,7 @@ main {
   flex-direction: column;
   height: 50%;
   font-family: var(--fonte-principal);
-  padding: 30px;
+  padding: 31px;
   align-items: center;
   gap: 1rem;
 }
