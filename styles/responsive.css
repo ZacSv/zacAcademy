@@ -76,7 +76,7 @@
 
   .card-modal {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     background-color: var(--cor-neutra);
@@ -86,12 +86,10 @@
     gap: 10px;
     position: relative;
   }
-  .icone-fechar {
-    display: flex;
-    width: 5%;
-    position: absolute;
-    transform: translateY(-60%);
-    height: 30%;
+
+  .botao-fechar{
+    margin-bottom: 3%;
+   
   }
   .img-exercicio {
     height: 100%;
